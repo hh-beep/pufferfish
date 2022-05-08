@@ -1,0 +1,49 @@
+$p-black: #222326;
+$p-dgrey: #808080;
+$p-lgrey: #BFBFBF;
+$p-white: #F2F2F2;
+
+@keyframes show {
+  from {
+    height: 0rem;
+    display: none;
+  }
+  to {
+    height: 20rem;
+    display: flex;
+  }
+}
+
+@keyframes hidde {
+  from {
+    height: 20rem;
+    display: flex;
+  }
+  to {
+    height: 0rem;
+    display: none;
+  }
+} 
+
+.ListHidde {
+  animation: hidde .5s normal;
+  height: 0rem;
+  transition: 500ms all;
+
+  .Item {
+    transition: 400ms all;
+    display: none;
+  }
+}
+
+.ListBig {
+  animation: show .5s normal;
+  height: 20rem;
+  transition: .5s all;
+
+  .Item:hover {
+    transition: .6s all;
+    background-color: $p-white;
+    color: $p-black
+  }
+}

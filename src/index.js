@@ -1,17 +1,30 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+//Base
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom';
+
+/* Styles */
 import './index.css';
+import LoadFont from './LoadFont';
+
+/* Components */
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+/* Inicialize Firebase */
+import inicializeDB from './Api/Firebase'
+
+
+
+/* Inicialize things here */
+inicializeDB()
+LoadFont()
+
+
+const root = createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <StrictMode>
     <App />
-  </React.StrictMode>
+  </StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

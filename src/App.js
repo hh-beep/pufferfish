@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+/* React Router Dom */
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 
-function App() {
+/* Components */
+import Homepage from './Components/Homepage/Homepage'
+
+/* Firebase Database */
+import { getDatabase, ref, onValue } from 'firebase/database'
+
+/* React Hooks */
+import { useState, useEffect } from 'react'
+
+
+
+export default function App() {
+
+  const [db, setDB] = useState([])
+
+  const refDB = ref(getDatabase(), 'Users/')
+  useEffect( () => {
+    onValue(refDB, snap => {
+      const array = Object.values( snap.val() )
+      setDB(array)
+    })
+  }, [])
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <Routes>
+
+        <Route path='/Home' element={ <Homepage /> } />
+
+      </Routes>
+    </Router>
+  ); 
 }
 
-export default App;
