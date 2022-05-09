@@ -1,33 +1,33 @@
 const xl2 = {
   Info: '',
-  InfoTittle: '',
-  InfoText: ''
+  InfoTittle: ' 2xl:text-2xl ',
+  InfoText: ' 2xl:text-xl '
 }
 const xl = {
   Info: '',
-  InfoTittle: '',
-  InfoText: ''
+  InfoTittle: ' xl:text-xl ',
+  InfoText: ' xl:text-lg '
 }
 const lg = {
-  Info: '',
-  InfoTittle: '',
-  InfoText: ''
+  Info: ' lg:w-3/6 ',
+  InfoTittle: ' lg:text-xl ',
+  InfoText: ' text-base '
 }
 const md = {
-  Info: '',
-  InfoTittle: '',
-  InfoText: ''
+  Info: ' md:w-4/6 ',
+  InfoTittle: ' md:text-left ',
+  InfoText: ' md:text-left'
 }
 const sm = {
-  Info: '',
-  InfoTittle: '',
-  InfoText: ''
+  Info: ' w-5/6 ',
+  InfoTittle: ' text-center text-base',
+  InfoText: ' text-center text-md '
 }
 
 export default function InfoStyle() {
   return {
     Info: 
-      ' w-3/6 flex flex-col justify-around h-full w-full ' +
+      ' flex flex-col justify-around h-full ' +
         xl2.Info +
         xl.Info +
         lg.Info +

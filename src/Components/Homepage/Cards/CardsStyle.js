@@ -3,6 +3,6 @@ export default function CardsStyle() {
     Container: 
       " h-screen w-full flex bg-p-black ",
     Cards: 
-      " h-5/6 w-full flex mt-44 flex-wrap flex-col justify-between ",
+      " lg:h-5/6 h-full w-full flex lg:mt-44 mt-0 flex-wrap flex-col justify-between ",
   }
 }

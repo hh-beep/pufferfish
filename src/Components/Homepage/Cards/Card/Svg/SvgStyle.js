@@ -7,15 +7,15 @@ const xl = {
   SvgImage: '',
 }
 const lg = {
-  Svg: '',
-  SvgImage: '',
+  Svg: ' lg:w-2/6 ',
+  SvgImage: ' lg:w-2/3 lg:h-full ',
 }
 const md = {
-  Svg: '',
-  SvgImage: '',
+  Svg: ' md:w-1/6 md:flex ',
+  SvgImage: ' md:w-3/4 md:h-3/5 ',
 }
 const sm = {
-  Svg: '',
+  Svg: ' hidden ',
   SvgImage: '',
 }
 
@@ -23,7 +23,7 @@ const sm = {
 export default function SvgStyle() {
   return {
     Svg: 
-      " w-2/6 flex justify-around items-center bg-p-white rounded-lg py-4 " +
+      " justify-around items-center bg-p-white rounded-lg py-4 " +
       xl2.Svg +
       xl.Svg +
       lg.Svg +
@@ -31,7 +31,7 @@ export default function SvgStyle() {
       sm.Svg,
 
     SvgImage: 
-      " w-2/3 h-full " +
+      "  " +
       xl2.SvgImage +
       xl.SvgImage +
       lg.SvgImage +

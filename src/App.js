@@ -29,7 +29,7 @@ export default function App() {
     <Router>
       <Routes>
 
-        <Route path='/Home' element={ <Homepage /> } />
+        <Route path='/Home' element={ <Homepage db={db} /> } />
 
       </Routes>
     </Router>

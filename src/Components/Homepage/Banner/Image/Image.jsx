@@ -2,7 +2,7 @@
 import React from 'react';
 
 //Logo
-import Logo1 from '../../../../Images/Logos/logo1.png'
+import Logo from '../../../../Images/Logos/logo1.png'
 
 //Style
 import ImageStyle from './ImageStyle';
@@ -16,7 +16,7 @@ export default function Image() {
 
   return(
     <figure className={ style.Figure }>
-      <img alt='Logo Pufferfish' className={ style.Image } src={Logo1} />
+      <img alt='Logo Pufferfish' className={ style.Image } src={Logo} />
     </figure>
   )
 }
