@@ -2,7 +2,7 @@ const xl2 = ''
 const xl = ''
 const lg = ' lg:w-2/5 lg:h-2/5 '
 const md = ' md:justify-between '
-const sm = '  justify-around w-5/6 h-1/4 '
+const sm = '  justify-around w-5/6 h-1/5 '
 
 export default function CardStyle() {
   return {

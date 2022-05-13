@@ -1,0 +1,24 @@
+$p-black: #222326;
+$p-dgrey: #808080;
+$p-lgrey: #BFBFBF;
+$p-white: #F2F2F2;
+
+
+
+.FormButton {
+  font-weight: bold;
+  color: $p-dgrey;
+  font-size: 1.125rem;
+
+  &:hover, &:focus {
+    box-shadow: 5px 5px 0 0 $p-dgrey;
+    border-color: $p-black;
+    color: $p-black;
+  }
+  &:active {
+    box-shadow: 3px 3px 0 0 $p-dgrey;
+    background-color: $p-black;
+    color: $p-lgrey;
+    border-color: $p-black;
+  }
+}

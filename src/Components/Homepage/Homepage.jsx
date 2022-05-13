@@ -1,15 +1,19 @@
 //Base imports
-import React from 'react';
+import React, { useState } from 'react';
 
 //Components
 import Header from "./Header/Header"
 import Banner from './Banner/Banner'
 import About from './About/About';
 import Cards from './Cards/Cards';
+import Form from './Form/Form'
 import Footer from './Footer/Footer'
 
 //Home
 export default function Homepage({  db  }) {
+  
+  const [canShow, setCanShow] = useState(false)
+
   return(
     <section 
       style={{ overflowX: 'hidden', overflowY: 'hidden' }} 
@@ -21,6 +25,11 @@ export default function Homepage({  db  }) {
       <Banner />
       <About />
       <Cards />
+
+      <Form 
+        canShow={canShow}
+        setCanShow={setCanShow} 
+      />
 
       {/*<Footer />*/}
 

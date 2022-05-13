@@ -19,7 +19,7 @@ const md = {
   InfoText: ' md:text-left'
 }
 const sm = {
-  Info: ' w-5/6 ',
+  Info: ' w-11/12 ',
   InfoTittle: ' text-center text-base',
   InfoText: ' text-center text-md '
 }

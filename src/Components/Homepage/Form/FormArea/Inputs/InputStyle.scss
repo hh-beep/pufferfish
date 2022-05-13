@@ -1,0 +1,23 @@
+$p-black: #222326;
+$p-dgrey: #808080;
+$p-lgrey: #BFBFBF;
+$p-white: #F2F2F2;
+
+
+.Input:hover, .Input:hover::placeholder {
+  border-color: $p-black;
+  color: $p-black;
+}
+.Input, .Input::placeholder {
+  color: #808080;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+.Input:focus-visible {
+  box-shadow: 5px 5px 0 0 $p-lgrey;
+  border-color: $p-black;
+  color:$p-black;
+}
+.Input:focus-visible::placeholder {
+  color:$p-black;
+}

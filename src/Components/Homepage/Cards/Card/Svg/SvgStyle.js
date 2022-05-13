@@ -23,7 +23,7 @@ const sm = {
 export default function SvgStyle() {
   return {
     Svg: 
-      " justify-around items-center bg-p-white rounded-lg py-4 " +
+      " justify-around items-center bg-p-white rounded-xl py-4 " +
       xl2.Svg +
       xl.Svg +
       lg.Svg +
