@@ -19,7 +19,7 @@ export default function TextArea() {
       </section>
 
       <figure className={ style.Figure }>
-        <img src={Logo1} className={ style.Figureimage } />
+        <img src={Logo1} className={ style.FigureImage } />
       </figure>
       
     </section>

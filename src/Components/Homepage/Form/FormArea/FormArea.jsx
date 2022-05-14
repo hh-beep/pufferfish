@@ -7,7 +7,7 @@ import FormAreaStyle from './FormAreaStyle'
 /* Components */
 import Inputs from './Inputs/Inputs';
 import Button from './Button/Button';
-import Error from './Error/Error'
+
 
 
 export default function FormArea({ canShow, setCanShow }) {
