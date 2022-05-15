@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pufferfish/static/css/main.20c4e51b.css",
-    "main.js": "/pufferfish/static/js/main.fc19b7a4.js",
+    "main.css": "/pufferfish/static/css/main.7d7927a3.css",
+    "main.js": "/pufferfish/static/js/main.39663ebc.js",
     "static/js/787.04634eae.chunk.js": "/pufferfish/static/js/787.04634eae.chunk.js",
     "static/media/logo1.png": "/pufferfish/static/media/logo1.4f916b8c8ceb27246d76.png",
     "static/media/logo3.png": "/pufferfish/static/media/logo3.51061d40ba908cf4e376.png",
@@ -14,12 +14,12 @@
     "static/media/message.svg": "/pufferfish/static/media/message.db5e0d7d334ba4833c9d07ac3596e6fa.svg",
     "static/media/clock.svg": "/pufferfish/static/media/clock.d10535e44b8ab743ce4c1a695126ebb1.svg",
     "static/media/facebook.svg": "/pufferfish/static/media/facebook.0e9af7d1cbeeecb9005d4c39315d7d1b.svg",
-    "main.20c4e51b.css.map": "/pufferfish/static/css/main.20c4e51b.css.map",
-    "main.fc19b7a4.js.map": "/pufferfish/static/js/main.fc19b7a4.js.map",
+    "main.7d7927a3.css.map": "/pufferfish/static/css/main.7d7927a3.css.map",
+    "main.39663ebc.js.map": "/pufferfish/static/js/main.39663ebc.js.map",
     "787.04634eae.chunk.js.map": "/pufferfish/static/js/787.04634eae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20c4e51b.css",
-    "static/js/main.fc19b7a4.js"
+    "static/css/main.7d7927a3.css",
+    "static/js/main.39663ebc.js"
   ]
 }
