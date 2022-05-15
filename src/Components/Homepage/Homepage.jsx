@@ -16,7 +16,11 @@ export default function Homepage({  db  }) {
 
   return(
     <section 
-      style={{ overflowX: 'hidden', overflowY: 'hidden' }} 
+      style={{ 
+        overflowX: 'hidden', 
+        overflowY: 'hidden',
+        backgroundColor: '#222326'
+      }} 
       className=" Homepage scroll-smooth"
     > 
       
@@ -31,7 +35,7 @@ export default function Homepage({  db  }) {
         setCanShow={setCanShow} 
       />
 
-      {/*<Footer />*/}
+      <Footer />
 
     </section>
   )

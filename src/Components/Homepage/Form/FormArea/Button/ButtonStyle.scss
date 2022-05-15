@@ -4,6 +4,11 @@ $p-lgrey: #BFBFBF;
 $p-white: #F2F2F2;
 
 
+@mixin cellphoneScreen {
+  @media (max-width: 768px) {
+    @content
+  }
+}
 
 .FormButton {
   font-weight: bold;
@@ -18,7 +23,20 @@ $p-white: #F2F2F2;
   &:active {
     box-shadow: 3px 3px 0 0 $p-dgrey;
     background-color: $p-black;
-    color: $p-lgrey;
+    color: $p-white;
     border-color: $p-black;
+  }
+
+  @include cellphoneScreen {
+    &:hover, &:focus {
+      box-shadow: none;
+      border-color: $p-lgrey;
+      color: $p-lgrey;
+    }
+    &:active {
+      border-color: $p-black;
+      color: $p-white;
+      box-shadow: 4px 4px 0 0 $p-dgrey;
+    }
   }
 }

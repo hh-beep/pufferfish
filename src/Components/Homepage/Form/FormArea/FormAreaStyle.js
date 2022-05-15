@@ -15,7 +15,7 @@ const md = {
   FormContainer: ' md:h-5/6 md:w-11/12 ',
 }
 const sm = {
-  Form: ' h-4/6 w-11/12 ',
+  Form: ' h-5/6 w-11/12 ',
   FormContainer: ' h-5/6 w-11/12 ',
 }
 
