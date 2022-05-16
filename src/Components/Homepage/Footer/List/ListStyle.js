@@ -20,7 +20,7 @@ const md = {
 }
 const sm = {
   List: ' h-4/6 w-6/12 flex-col ',
-  ListItem: ' h-1/5 w-4/12 ',
+  ListItem: ' h-1/5 w-8/12 ',
   ListItemImage: ' h-1/2 w-1/2 '
 }
 
