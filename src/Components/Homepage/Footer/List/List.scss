@@ -1,0 +1,25 @@
+$p-black: #222326;
+$p-dgrey: #808080;
+$p-lgrey: #BFBFBF;
+$p-white: #F2F2F2;
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.02);
+  }
+}
+
+.Footer__Item {
+
+  &:hover { box-shadow: 7.5px 7.5px 0 0 $p-dgrey; }
+  &:active { 
+    box-shadow: 10px 10px 0 0 $p-lgrey;
+    animation: pulse .3s normal ;
+    transform: scale(1.02);
+
+  }
+
+}

@@ -6,6 +6,7 @@ import Header from "./Header/Header"
 import Banner from './Banner/Banner'
 import About from './About/About';
 import Cards from './Cards/Cards';
+import Carousel from './Carousel/Carousel';
 import Form from './Form/Form'
 import Footer from './Footer/Footer'
 
@@ -29,6 +30,7 @@ export default function Homepage({  db  }) {
       <Banner />
       <About />
       <Cards />
+      <Carousel />
 
       <Form 
         canShow={canShow}

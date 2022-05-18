@@ -16,7 +16,7 @@ const sm = {
 export default function FooterStyle() {
   return {
     Footer: 
-      ' w-full h-4/5 mt-auto flex flex-col justify-around ' +
+      ' bg-p-black w-full h-4/5 mt-auto flex flex-col justify-around ' +
         lg.Footer +
         sm.Footer,
 
