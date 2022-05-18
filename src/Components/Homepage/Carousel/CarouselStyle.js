@@ -1,4 +1,7 @@
-export default function CarouselStyle() {
+
+
+
+const CarouselStyle = () => {
   return {
     Container: ' mt-20 h-screen w-full ',
 
@@ -7,3 +10,5 @@ export default function CarouselStyle() {
     SwiperSlide: ' flex flex-col justify-around items-center ',
   }
 }
+
+export default CarouselStyle

@@ -34,6 +34,7 @@ const Carousel = () => {
         autoplay={{  delay: '7500'  }}
         loop={  true  }
         slidesPerView={  1  }
+        spaceBetween={ 50 }
         className={" mySwiper " + style.Swiper}
       >
 
