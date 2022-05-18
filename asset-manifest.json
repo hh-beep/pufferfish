@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/pufferfish/static/css/main.7d7927a3.css",
-    "main.js": "/pufferfish/static/js/main.39663ebc.js",
+    "main.css": "/pufferfish/static/css/main.404ef302.css",
+    "main.js": "/pufferfish/static/js/main.4b386998.js",
     "static/js/787.04634eae.chunk.js": "/pufferfish/static/js/787.04634eae.chunk.js",
+    "static/media/Camisa.png": "/pufferfish/static/media/Camisa.392c0b0a2b3fc569e28f.png",
+    "static/media/Moletom.png": "/pufferfish/static/media/Moletom.f01c0ddf7800fcfb6451.png",
     "static/media/logo1.png": "/pufferfish/static/media/logo1.4f916b8c8ceb27246d76.png",
     "static/media/logo3.png": "/pufferfish/static/media/logo3.51061d40ba908cf4e376.png",
+    "static/media/Garrafa.png": "/pufferfish/static/media/Garrafa.ec0423c46f6c68f81a82.png",
     "index.html": "/pufferfish/index.html",
     "static/media/youtube.svg": "/pufferfish/static/media/youtube.61b0444fbc7d826201c856c928be8e38.svg",
     "static/media/github.svg": "/pufferfish/static/media/github.40919720dcdefea2946114841633118d.svg",
@@ -14,12 +17,12 @@
     "static/media/message.svg": "/pufferfish/static/media/message.db5e0d7d334ba4833c9d07ac3596e6fa.svg",
     "static/media/clock.svg": "/pufferfish/static/media/clock.d10535e44b8ab743ce4c1a695126ebb1.svg",
     "static/media/facebook.svg": "/pufferfish/static/media/facebook.0e9af7d1cbeeecb9005d4c39315d7d1b.svg",
-    "main.7d7927a3.css.map": "/pufferfish/static/css/main.7d7927a3.css.map",
-    "main.39663ebc.js.map": "/pufferfish/static/js/main.39663ebc.js.map",
+    "main.404ef302.css.map": "/pufferfish/static/css/main.404ef302.css.map",
+    "main.4b386998.js.map": "/pufferfish/static/js/main.4b386998.js.map",
     "787.04634eae.chunk.js.map": "/pufferfish/static/js/787.04634eae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d7927a3.css",
-    "static/js/main.39663ebc.js"
+    "static/css/main.404ef302.css",
+    "static/js/main.4b386998.js"
   ]
 }
