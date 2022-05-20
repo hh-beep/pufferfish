@@ -5,17 +5,20 @@ import {
 
 
 
-export default function CreateUser(email, pass, setErro) { 
+export default function CreateUser( e, email, pass, setErro) { 
+
+  e.preventDefault();
 
   const auth = getAuth()
   createUserWithEmailAndPassword(auth, email, pass)
     .then( () => {
       setErro('')
+
+      window.location.hash = '#/NewUser';
     })
     .catch( error => {
 
       console.log(error.code)
-
 
       switch (error.code) {
         case "auth/invalid-email":

@@ -14,6 +14,8 @@ export default function Button(props) {
 
   const [erro, setErro] = useState('')
 
+
+  
   return(
     <section className={ style.Container}>
 
@@ -24,9 +26,8 @@ export default function Button(props) {
       <button
         className={ style.Button + " FormButton " }
         onClick={(e) => {
-          e.preventDefault()
-
-          CreateUser( props.email, props.pass, setErro)
+          
+          CreateUser( e, props.email, props.pass, setErro)
         }}>Cadastrar</button>
     </section>
   )
