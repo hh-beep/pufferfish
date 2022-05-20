@@ -9,7 +9,7 @@ import FormStyle from './FormStyle';
 
 
 
-export default function Form({ canShow, setCanShow }) { 
+export default function Form() { 
 
   const style = FormStyle()
 
@@ -19,10 +19,7 @@ export default function Form({ canShow, setCanShow }) {
 
       <TextArea />
 
-      <FormArea 
-        canShow={canShow}
-        setCanShow={setCanShow} 
-      />
+      <FormArea />
 
       </section>
     </section>

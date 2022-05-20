@@ -10,7 +10,7 @@ import Button from './Button/Button';
 
 
 
-export default function FormArea({ canShow, setCanShow }) {
+export default function FormArea() {
 
   const style = FormAreaStyle()
 
@@ -31,9 +31,6 @@ export default function FormArea({ canShow, setCanShow }) {
         <Button 
           email={email} 
           pass={pass} 
-
-          canShow={canShow}
-          setCanShow={setCanShow}
         />
       </section>
     </form>

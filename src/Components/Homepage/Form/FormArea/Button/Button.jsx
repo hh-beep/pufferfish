@@ -27,9 +27,6 @@ export default function Button(props) {
           e.preventDefault()
 
           CreateUser( props.email, props.pass, setErro)
-
-          console.log(erro)
-
         }}>Cadastrar</button>
     </section>
   )

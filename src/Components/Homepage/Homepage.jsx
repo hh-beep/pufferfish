@@ -11,9 +11,9 @@ import Form from './Form/Form'
 import Footer from './Footer/Footer'
 
 //Home
-export default function Homepage({  db  }) {
+export default function Homepage() {
   
-  const [canShow, setCanShow] = useState(false)
+  
 
   return(
     <section 
@@ -32,10 +32,7 @@ export default function Homepage({  db  }) {
       <Cards />
       <Carousel />
 
-      <Form 
-        canShow={canShow}
-        setCanShow={setCanShow} 
-      />
+      <Form />
 
       <Footer />
 
