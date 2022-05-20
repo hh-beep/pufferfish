@@ -15,8 +15,8 @@ export default function List({  items  }) {
       {items.map( (item, key) => {
         return(
           <a 
+	          onClick={ () => { window.open(item.url, "blank") }}
             className={ style.ListItem + " Footer__Item " } 
-            href={ item.url } 
             key={key}
           >
             <img className={ style.ListItemImage + " Footer__Item-Image " } src={item.image} />

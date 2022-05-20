@@ -16,7 +16,7 @@ export default function Links({ paths, show }) {
   const style = LinkStyle()
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
-  window.addEventListener('resize',() =>setWindowWidth(window.innerWidth))
+  window.addEventListener('resize',() => setWindowWidth(window.innerWidth))
 
   return(
   <ul className={ style.List + ( windowWidth < 768 ? (show ? " ListBig " : " ListHidde ") : "  " ) }>
