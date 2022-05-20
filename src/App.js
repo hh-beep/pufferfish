@@ -14,7 +14,8 @@ import { useState, useEffect } from 'react'
 
 export default function App() {
 
-  const [db, setDB] = useState([])
+  //Isso dexa o site lento, e nao to usando ainda
+  /*const [db, setDB] = useState([])
 
   const refDB = ref(getDatabase(), 'Users/')
   useEffect( () => {
@@ -22,7 +23,7 @@ export default function App() {
       const array = Object.values( snap.val() )
       setDB(array)
     })
-  }, [])
+  }, [])*/
 
 
   return (
