@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pufferfish/static/css/main.a2618dda.css",
-    "main.js": "/pufferfish/static/js/main.3ebd0463.js",
+    "main.js": "/pufferfish/static/js/main.6b8e6818.js",
     "static/js/787.04634eae.chunk.js": "/pufferfish/static/js/787.04634eae.chunk.js",
     "static/media/Camisa.png": "/pufferfish/static/media/Camisa.392c0b0a2b3fc569e28f.png",
     "static/media/Moletom.png": "/pufferfish/static/media/Moletom.f01c0ddf7800fcfb6451.png",
@@ -18,11 +18,11 @@
     "static/media/clock.svg": "/pufferfish/static/media/clock.d10535e44b8ab743ce4c1a695126ebb1.svg",
     "static/media/facebook.svg": "/pufferfish/static/media/facebook.0e9af7d1cbeeecb9005d4c39315d7d1b.svg",
     "main.a2618dda.css.map": "/pufferfish/static/css/main.a2618dda.css.map",
-    "main.3ebd0463.js.map": "/pufferfish/static/js/main.3ebd0463.js.map",
+    "main.6b8e6818.js.map": "/pufferfish/static/js/main.6b8e6818.js.map",
     "787.04634eae.chunk.js.map": "/pufferfish/static/js/787.04634eae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2618dda.css",
-    "static/js/main.3ebd0463.js"
+    "static/js/main.6b8e6818.js"
   ]
 }
